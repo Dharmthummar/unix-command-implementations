@@ -16,7 +16,7 @@ The repository includes the following files, each implementing specific OS-relat
 - **grep.c**: A C program implementing a simplified version of the `grep` command, searching for a string in a file and printing matching lines.
 - **end.sh**: Accepts text input until the word "end" is entered, saves it to a file (`destination`), and displays the content with a line count.
 - **head.sh**: Mimics the Unix `head` command, displaying the first N lines of a specified file.
-- **dirmange.sh**: A directory management script for creating, modifying, navigating, listing, and managing permissions of files and directories.
+- **dirmanager.sh**: A directory management script for creating, modifying, navigating, listing, and managing permissions of files and directories.
 - **tail.sh**: Mimics the Unix `tail` command, displaying the last N lines of a specified file.
 
 ## Prerequisites
@@ -103,9 +103,9 @@ Below are example commands to run each program. Ensure you are in the repository
   ```
   Displays the first 5 lines of `filename.txt`.
 
-- **dirmange.sh**:
+- **dirmanager.sh**:
   ```bash
-  ./dirmange.sh
+  ./dirmanager.sh
   ```
   Runs an interactive menu for directory/file creation, modification, navigation, and permissions.
 
@@ -117,7 +117,7 @@ Below are example commands to run each program. Ensure you are in the repository
 
 ## Notes
 - **Academic Context**: These programs were developed as part of an Operating Systems course to demonstrate Unix command implementations and system programming concepts.
-- **Error Handling**: Some scripts (e.g., `dbms.sh`, `dirmange.sh`) may have typos or logical errors (e.g., `fanme` in `dbms.sh`, `dirmange` instead of `dirmanage`). These are preserved as per the original assignment code but may need debugging for production use.
+- **Error Handling**: Some scripts (e.g., `dbms.sh`, `dirmanager.sh`) may have typos or logical errors (e.g., `fanme` in `dbms.sh`, `dirmanager` instead of `dirmanage`). These are preserved as per the original assignment code but may need debugging for production use.
 - **Improvements**: For real-world use, consider adding input validation, error handling, and documentation within the scripts.
 - **License**: This project is for educational purposes. Feel free to use, modify, or share under the MIT License (see `LICENSE` file, if added).
 
